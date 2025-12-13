@@ -1,5 +1,5 @@
 # 🗄️Data Warehouse
-- É um sistema de armazenamento de dados projetado para análises de relat´roios, não para operações do dia a dia (`OLAP - Online Analytical Processing`);
+- É um sistema de armazenamento de dados projetado para análises de relatórios, não para operações do dia a dia (`OLAP - Online Analytical Processing`);
 - O Data Warehouse não lida com cada operação individual do dia a dia, mas sim com *resumos e análises* de todas as operações;
 - É voltado para decisão estratégica, não para processar cada venda individual.
     <div style="background-color: #d4edda; color: #155724; padding: 10px; border-left: 5px solid #28a745; border-radius: 3px; margin: 10px 0;">
