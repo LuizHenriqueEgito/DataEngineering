@@ -11,8 +11,18 @@ Os dados ficam separados assim:
 Uma tabela possui vários arquivos divididos em páginas (8KB) cada
 
 ## Como uma query funciona:
-### Parser
+Uma `query` é um **pedido estruturado** para um banco de dados. O banco de dados faz uma série de verificações na sua query antes de continuar. Para a query ser concluida o banco de dados passa por três etapas:
+### 1º Parser
+O banco verifica:
+- Sintaxe correta?
+- Tabela existe?
+- Colunas existem?
 
-### Planner
+### 2º Planner
+O banco planeja qual a melhor forma de retornar o que lhe foi pedido, chamamos isso de `query plan`.
+- Devo usar indice?
+- Faço scan completo da tabela?
+- Qual ordem devo seguir das operações?
 
 ### Executor
+Depois do `Parser` e do `Planner` agora ele tem um plano de ações e já validou a lógica da `query` então ele pode seguir para fazer o que lhe foi pedido.
