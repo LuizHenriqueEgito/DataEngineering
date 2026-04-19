@@ -1,0 +1,6 @@
+- [ ] Coloque os exemplos de instalação no arquivo de exemplos
+- [ ] Rode novamente do zero para ver se vai funcionar
+- [ ] Faça outras coisas no map e no reduce
+- [ ] Entenda o tecnico veja os artigos e leia
+- [ ] Mapeie e use os principais comandos
+- [ ] Finalize e salve os arquivos e suba no git
