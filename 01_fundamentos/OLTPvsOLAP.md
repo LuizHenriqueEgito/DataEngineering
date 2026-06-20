@@ -3,6 +3,7 @@
 - Usado para transações do dia a dia (banco de dados de vendas em tempo real);
 - Focado na operação: registrar, atualizar, processar agrupamentos;
 - inserts/updates/deletes rápidos na tabela
+![alt text](../images/oltp.png)
 
 ## OLAP (Online Analytical Processing)
 - Usado para análise de dados e decisões estratégicas;
@@ -12,6 +13,7 @@
     - Dados históricos e resumidos
     - Menos atualizações, mais leiturea intensiva
 - Por exemplo: Calcular o total de vendas por região nos útlimos 12 meses, gerar ranking de produtos mais vendidos;
+![alt text](../images/olap.png)
 
 ### OLTP: A loja funcionando no dia a dia
 - Cada cliente chegando, comprando produtos, pagando no caixa.

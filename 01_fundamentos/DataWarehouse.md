@@ -8,6 +8,7 @@
 - **Otimizado** para consultas complexas e agregações em grandes volumes de daddos;
 - Precisa de **CPU (poder computacional) e RAM (memória)** para consultas rápidas;
 - Na maior parde das vezes o **Data Warehouse** recebe dados de Data Lakes após os pipelines ETL/ELT;
+![alt text](image.png)
 
 ### Em Resumo
 Repositório Central de dados coletados de diversas fontes, projetado especificamente para **análise e relatórios**. Ele é o alicerce do BI (Business Intelligence). Se com o **Data Lake** nós temos os dados de diversas formas possiveis, no **Data Warehouse** tudo bem transformado e normalizado para serem consumidos, agrupados e visualizados.

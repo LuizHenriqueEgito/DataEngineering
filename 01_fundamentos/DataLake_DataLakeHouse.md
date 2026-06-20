@@ -6,6 +6,7 @@
     - `Não estruturados`.
     Por exemplo: *logs, JSON, CSV, imagens, vídeos, etc...*
     - Escalável, geralmente em S3, HDFS, ADLS (são serviços de armazenamento para guardar todos esses dados).
+![alt text](../images/datalake.png)
 
 ### Dados Estruturados, Semi-Estruturados e Não Estruturados
 - **Estruturados**: Dados organizados em tabelas com colunas e tipos fixos (por exemplo: SQL, planilhas);
@@ -22,6 +23,7 @@
 - Suporta transações `ACID`, versionamento de dados e controle de schema;
 - Ferramentas: **DataBricks**, **Snowflake**, **Iceberg**, **Apache Delta Lake**, **S3 + Athena**;
 - Permite `ETL (extração, transformação e carregamento (Extract, Transform Load))` + **Analytics** na mesma camada, sem precisar mover dados para um `warehouse` separado
+![alt text](../images/datalakehouse.png)
 
 ### Em Resumo
 **Data LakeHouse** é um **Data Lake** *arrumado*, onde você tem a flexibilidade de armazenar **qualquer** tipo de dado, mas consegue trabalhar com eles de forma eficiente, como se fosse um banco de dados tradicional.
